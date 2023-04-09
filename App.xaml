@@ -1,0 +1,136 @@
+﻿<Application x:Class="LR04_C121_Kantamirov.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LR04_C121_Kantamirov"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="BlackThemeButton">
+                <Setter Property="Control.FontFamily" Value="Times New Roman"/>
+                <Setter Property="Control.Background" Value="DarkGray"/>
+                <Setter Property="Control.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="BlackThemeDockPanel">
+                <Setter Property="Control.Background" Value="DarkGray"/>
+            </Style>
+            <Style x:Key="BlackThemeStackPanel">
+                <Setter Property="Control.Background" Value="DarkGray"/>
+            </Style>
+            <Style x:Key="BlackThemeTextBox">
+                <Setter Property="Control.Background" Value="LightGray"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="BlackThemeGrid">
+                <Setter Property="Control.Background" Value="DarkGray"/>
+            </Style>
+            <Style x:Key="BlackThemeListBox">
+                <Setter Property="ItemsControl.Background" Value="LightGray"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+                <Setter Property="ItemsControl.BorderBrush" Value="White"/>
+            </Style>
+            <Style x:Key="BlackThemeDatePicker">
+                <Setter Property="ItemsControl.Background" Value="DarkGray"/>
+                <Setter Property="ItemsControl.BorderBrush" Value="DarkGray"/>
+            </Style>
+            <Style x:Key="WhiteThemeButton">
+                <Setter Property="Control.Background" Value="White"/>
+                <Setter Property="Control.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="WhiteThemeDockPanel">
+                <Setter Property="Control.Background" Value="White"/>
+            </Style>
+            <Style x:Key="WhiteThemeStackPanel">
+                <Setter Property="Control.Background" Value="White"/>
+            </Style>
+            <Style x:Key="WhiteThemeTextBox">
+                <Setter Property="Control.Background" Value="White"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="WhiteThemeGrid">
+                <Setter Property="Control.Background" Value="White"/>
+            </Style>
+            <Style x:Key="WhiteThemeListBox">
+                <Setter Property="ItemsControl.Background" Value="White"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="WhiteThemeDatePicker">
+                <Setter Property="ItemsControl.Background" Value="White"/>
+            </Style>
+            <Style x:Key="BlueThemeButton">
+                <Setter Property="Control.Background" Value="LightBlue"/>
+                <Setter Property="Control.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="BlueThemeDockPanel">
+                <Setter Property="Control.Background" Value="LightBlue"/>
+            </Style>
+            <Style x:Key="BlueThemeStackPanel">
+                <Setter Property="Control.Background" Value="LightBlue"/>
+            </Style>
+            <Style x:Key="BlueThemeTextBox">
+                <Setter Property="Control.Background" Value="LightBlue"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="BlueThemeGrid">
+                <Setter Property="Control.Background" Value="LightBlue"/>
+            </Style>
+            <Style x:Key="BlueThemeListBox">
+                <Setter Property="ItemsControl.Background" Value="LightBlue"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+                <Setter Property="ItemsControl.BorderBrush" Value="White"/>
+            </Style>
+            <Style x:Key="BlueThemeDatePicker">
+                <Setter Property="ItemsControl.Background" Value="LightBlue"/>
+            </Style>
+            <Style x:Key="KhakiThemeButton">
+                <Setter Property="Control.Background" Value="DarkKhaki"/>
+                <Setter Property="Control.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="KhakiThemeDockPanel">
+                <Setter Property="Control.Background" Value="DarkKhaki"/>
+            </Style>
+            <Style x:Key="KhakiThemeStackPanel">
+                <Setter Property="Control.Background" Value="DarkKhaki"/>
+            </Style>
+            <Style x:Key="KhakiThemeTextBox">
+                <Setter Property="Control.Background" Value="DarkKhaki"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="KhakiThemeGrid">
+                <Setter Property="Control.Background" Value="DarkKhaki"/>
+            </Style>
+            <Style x:Key="KhakiThemeListBox">
+                <Setter Property="ItemsControl.Background" Value="DarkKhaki"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+                <Setter Property="ItemsControl.BorderBrush" Value="White"/>
+            </Style>
+            <Style x:Key="KhakiThemeDatePicker">
+                <Setter Property="ItemsControl.Background" Value="DarkKhaki"/>
+            </Style>
+            <Style x:Key="DarkSeaGreenThemeButton">
+                <Setter Property="Control.Background" Value="DarkSeaGreen"/>
+                <Setter Property="Control.Foreground" Value="Black"/>
+            </Style>
+            <Style x:Key="DarkSeaGreenThemeDockPanel">
+                <Setter Property="Control.Background" Value="DarkSeaGreen"/>
+            </Style>
+            <Style x:Key="DarkSeaGreenThemeStackPanel">
+                <Setter Property="Control.Background" Value="DarkSeaGreen"/>
+            </Style>
+            <Style x:Key="DarkSeaGreenThemeTextBox">
+                <Setter Property="Control.Background" Value="DarkSeaGreen"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+                <Setter Property="ItemsControl.BorderBrush" Value="White"/>
+            </Style>
+            <Style x:Key="DarkSeaGreenThemeGrid">
+                <Setter Property="Control.Background" Value="DarkSeaGreen"/>
+                <Setter Property="ItemsControl.BorderBrush" Value="White"/>
+            </Style>
+            <Style x:Key="DarkSeaGreenThemeListBox">
+                <Setter Property="ItemsControl.Background" Value="DarkSeaGreen"/>
+                <Setter Property="ItemsControl.Foreground" Value="Black"/>
+                <Setter Property="ItemsControl.BorderBrush" Value="White"/>
+            </Style>
+        <Style x:Key="DarkSeaGreenThemeDatePicker">
+            <Setter Property="ItemsControl.Background" Value="DarkSeaGreen"/>
+        </Style>
+    </Application.Resources>
+</Application>
